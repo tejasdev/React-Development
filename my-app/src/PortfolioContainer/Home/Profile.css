@@ -1,0 +1,75 @@
+.intro{
+    display: flex;
+}
+.fa{
+    margin: 10px 0 5px 0;
+    font-size: 30px;
+    width: 50px !important;
+    padding: 3px;
+}
+.intro-social{
+    text-align: center;
+}
+.intro-left{
+    flex: 1;
+    padding: 80px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro-hi{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+.intro-name{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.intro-right{
+    flex: 1;
+    padding: 80px;
+}
+
+.intro-skill{
+    overflow: hidden;
+}
+
+ .intro-skill-item{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    animation: move 6s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-30px);
+    }
+    60%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(-100px)
+    }
+}
+
+.intro-image{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro-description{
+    padding-top: 5px;
+}
